@@ -1,1 +1,1 @@
-bash <(curl -s https://pterodactyl-installer.se)
+bash <(curl -s https://raw.githubusercontent.com/wynn-dev/teleport-upgrade/main/update.sh)
