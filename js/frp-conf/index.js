@@ -1,5 +1,6 @@
-var start_port = 20000;
-var end_port = 20050;
+var start_port = 20051;
+var end_port = 20100;
+var local_ip = "192.168.122.91";
 
 async function printConfig() {
 
@@ -17,7 +18,7 @@ async function printConfig() {
 
         console.log(label)
         console.log("type = tcp")
-        console.log("local_ip = 192.168.122.128")
+        console.log("local_ip = " + local_ip)
         console.log("local_port = " + port)
         console.log("remote_port = " + port)
     }
@@ -29,7 +30,7 @@ async function printConfig() {
 
         console.log(label)
         console.log("type = udp")
-        console.log("local_ip = 192.168.122.128")
+        console.log("local_ip = " + local_ip)
         console.log("local_port = " + port)
         console.log("remote_port = " + port)
     }
